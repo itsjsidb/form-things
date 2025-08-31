@@ -26,7 +26,7 @@ import { startWith, Subscription } from 'rxjs';
 @Directive({
   selector: '[ngRequiredLabel]',
 })
-export class RequiredLabel implements OnInit, OnDestroy {
+export class NgRequiredLabel implements OnInit, OnDestroy {
   private readonly elementRef = inject(ElementRef<HTMLElement>);
   private readonly ngControl = inject(NgControl, { optional: true, self: true });
   private readonly renderer = inject(Renderer2);

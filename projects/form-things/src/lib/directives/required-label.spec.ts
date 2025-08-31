@@ -1,8 +1,8 @@
-import { RequiredLabel } from './required-label';
+import { NgRequiredLabel } from './required-label';
 
-describe('RequiredLabel', () => {
+describe('NgRequiredLabel', () => {
   it('should create an instance', () => {
-    const directive = new RequiredLabel();
+    const directive = new NgRequiredLabel();
     expect(directive).toBeTruthy();
   });
 });

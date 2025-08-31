@@ -1,10 +1,10 @@
-import { RequiredLabel } from './../../../form-things/src/lib/directives/required-label';
+import { NgRequiredLabel } from './../../../form-things/src/lib/directives/required-label';
 import { Component, signal } from '@angular/core';
 import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [ReactiveFormsModule, RequiredLabel],
+  imports: [ReactiveFormsModule, NgRequiredLabel],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
